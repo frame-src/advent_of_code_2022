@@ -65,10 +65,10 @@ int main (void)
 {
 	int					fd;
 	int					i = 1;
+	long int			richest[3];
 	struct dwarf_list	*dwarfs;
 	struct dwarf_list	*first_dwarf;
 	char				*info;
-	long int			richest[3];
 
 	fd = open ("/Users/frmessin/Desktop/advent_of_code/day_01/input_files/input.txt", O_RDONLY);
 	dwarfs = new_dwarf(i);
